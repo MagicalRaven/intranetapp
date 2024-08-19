@@ -1,0 +1,47 @@
+/* Estilos para el logo */
+.logo-img {
+    max-width: 80%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  /* Ajustes de la barra de navegación */
+  .btn-custom {
+    display: block;
+    width: 90%; /* Reducimos un poco el ancho del botón */
+    padding: 8px 12px; /* Ajustamos el padding para que sean más compactos */
+    margin-bottom: 5px;
+    text-align: center;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .btn-custom:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .btn-custom:active {
+    background-color: #004085;
+    transform: translateY(0);
+  }
+  
+  .bg-light.dark-mode {
+    background-color: #333 !important;
+  }
+  
+  .nav-item .btn-custom.dark-mode {
+    background-color: #444;
+    color: #ddd;
+  }
+  
+  .nav-item .btn-custom.dark-mode:hover {
+    background-color: #555;
+    color: #fff;
+  }
+  

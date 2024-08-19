@@ -1,0 +1,52 @@
+.politicas {
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center; /* Centra el texto */
+    max-width: 800px; /* Ajusta el ancho máximo del contenido */
+    margin: 0 auto; /* Centra el contenedor */
+}
+
+.politicas ul {
+    list-style: none;
+    padding: 0; /* Elimina el padding por defecto */
+}
+
+.politicas ul li {
+    padding-bottom: 35px;
+}
+
+.politicas ul li h1,
+.politicas ul li h2,
+.politicas ul li p {
+    text-align: justify; /* Justifica el texto */
+    margin: 0; /* Elimina el margen por defecto */
+    line-height: 1.3; /* Ajusta el interlineado */
+}
+
+.politicas ul li h1 {
+    padding-top: 25px;
+}
+
+.politicas ul li p {
+    line-height: 2;
+}
+.button-container {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .accept-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-bottom: 45px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .accept-button:hover {
+    background-color: #0056b3;
+  }
